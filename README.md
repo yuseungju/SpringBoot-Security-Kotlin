@@ -1,12 +1,12 @@
 # SpringBoot-Security-Kotlin
 
-프로젝트 생성시 
+1. 프로젝트 생성시 
 
 java 11 , SpringBoot 2.6.2 , jar-gradle 
 
 
 
-기본환경 
+2. 기본환경 
 
 mariadb 
 
@@ -14,7 +14,7 @@ mariadb
 
 
 
-잘 안됐던 내용 참고 ) 
+3. 잘 안됐던 내용 참고 
 
 권한 여러개 설정시 
 
