@@ -5,13 +5,16 @@
 java 11 , SpringBoot 2.6.2 , jar-gradle 
 
 
+
 기본환경 
 
 mariadb 
 
 
 
-공부 내용) 
+
+
+잘 안됐던 내용 참고 ) 
 
 권한 여러개 설정시 
 
