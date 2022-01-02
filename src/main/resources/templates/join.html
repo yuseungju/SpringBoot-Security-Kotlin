@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Join</title>
+</head>
+<body>
+    <p> 1. 멀티 권한 사용자(ROLE_USER1 & ROLE_USER2) </p>
+    <form method="POST" action="/join/user_all" >
+        <label>email: </label>
+        <input type="text" name="email"/><br/>
+        <label>Password: </label>
+        <input type="password" name="pass"/><br/>
+        <label>address: </label>
+        <input type="text" name="address"/><br/>
+        <label>Phone: </label>
+        <input type="text" name="phoneNumber"/><br/>
+        <input type="submit" value="Register"/>
+    </form></br></br>
+
+    <p> 2. 사용자(ROLE_USER1)</p>
+    <form method="POST" action="/join/user1" >
+            <label>email: </label>
+            <input type="text" name="email"/><br/>
+            <label>Password: </label>
+            <input type="password" name="pass"/><br/>
+            <label>address: </label>
+            <input type="text" name="address"/><br/>
+            <label>Phone: </label>
+            <input type="text" name="phoneNumber"/><br/>
+            <input type="submit" value="Register"/>
+    </form></br></br>
+
+    <p> 3. 사용자(ROLE_USER2) </p>
+    <form method="POST" action="/join/user2" >
+        <label>email: </label>
+        <input type="text" name="email"/><br/>
+        <label>Password: </label>
+        <input type="password" name="pass"/><br/>
+        <label>address: </label>
+        <input type="text" name="address"/><br/>
+        <label>Phone: </label>
+        <input type="text" name="phoneNumber"/><br/>
+        <input type="submit" value="Register"/>
+    </form></br></br>
+
+
+</body>
+</html>
