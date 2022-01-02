@@ -20,4 +20,5 @@ mariadb
 
 interface UserDetails를 implements할때  getAuthorities에 권한리스트를 반환시키면됨 
 
--> Collection<UserRoles> 속성으로 가지고, 해당 리스트를 반환 
+
+->  이때 리스트를 getAuthorities에 동적으로 넣어주면 안돼서 ,   "Collection<UserRoles> 속성"으로 가지고 해당값으로 반환함 
